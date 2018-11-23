@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeRootbeer } = NativeModules;
+const { RNRootbeer } = NativeModules;
 
-export default RNReactNativeRootbeer;
+export default RNRootbeer;

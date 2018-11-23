@@ -9,18 +9,18 @@ import com.facebook.react.bridge.Promise;
 
 import com.scottyab.rootbeer.RootBeer;
 
-public class RNReactNativeRootbeerModule extends ReactContextBaseJavaModule {
+public class RNRootbeerModule extends ReactContextBaseJavaModule {
 
   private final ReactApplicationContext reactContext;
 
-  public RNReactNativeRootbeerModule(ReactApplicationContext reactContext) {
+  public RNRootbeerModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
   }
 
   @Override
   public String getName() {
-    return "RNReactNativeRootbeer";
+    return "RNRootbeer";
   }
 
   @ReactMethod
