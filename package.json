@@ -2,19 +2,26 @@
 {
   "name": "react-native-rootbeer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A wrapper for rootbeer to use with react native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tponte/react-native-rootbeer.git"
+  },
   "keywords": [
-    "react-native"
+    "react-native",
+    "android",
+    "rootbeer"
   ],
   "author": {
     "name": "Thiago Ponte",
     "url": "https://github.com/tponte"
   },
   "license": "MIT",
+  "homepage": "https://github.com/tponte/react-native-rootbeer",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
