@@ -31,7 +31,9 @@
 ```javascript
 import RNRootbeer from 'react-native-rootbeer';
 
-// TODO: What to do with the module?
-RNRootbeer;
+// Checking if rooted
+const isRooted = await RNRootbeer.isRooted()
+// OR
+const isRootedWithoutBusyBoxCheck = await RNRootbeer.isRootedWithoutBusyBoxCheck()
 ```
   
