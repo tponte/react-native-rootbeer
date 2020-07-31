@@ -31,9 +31,9 @@ public class RNRootbeerModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void isRootedWithoutBusyBoxCheck(Promise promise) {
+  public void isRootedWithBusyBoxCheck(Promise promise) {
     RootBeer check = new RootBeer(reactContext);
 
-    promise.resolve(check.isRootedWithoutBusyBoxCheck());
+    promise.resolve(check.isRootedWithBusyBoxCheck());
   }
 }

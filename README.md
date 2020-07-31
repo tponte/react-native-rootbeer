@@ -34,6 +34,6 @@ import RNRootbeer from 'react-native-rootbeer';
 // Checking if rooted
 const isRooted = await RNRootbeer.isRooted()
 // OR
-const isRootedWithoutBusyBoxCheck = await RNRootbeer.isRootedWithoutBusyBoxCheck()
+const isRootedWithBusyBoxCheck = await RNRootbeer.isRootedWithBusyBoxCheck()
 ```
   
