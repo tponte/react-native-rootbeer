@@ -19,12 +19,12 @@
   - Add `new RNRootbeerPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-react-native-rootbeer'
-  	project(':react-native-react-native-rootbeer').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-react-native-rootbeer/android')
+  	include ':react-native-rootbeer'
+  	project(':react-native-rootbeer').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-rootbeer/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-react-native-rootbeer')
+      compile project(':react-native-rootbeer')
   	```
 
 ## Usage
